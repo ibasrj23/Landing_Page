@@ -9,12 +9,12 @@ body {
 }
 
 .navbar-brand {
-  color: #b85b0af5; /* Warna logo awal */
+  color: #b85b0af5; 
   font-size: 30px;
   font-weight: 400;
   font-family: 'Zee';
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  transition: color 1s ease; /* Animasi perubahan warna */
+  transition: color 1s ease; 
 }
 
 .navbar-brand.scrolled-logo {
