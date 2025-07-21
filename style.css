@@ -1,0 +1,61 @@
+@font-face {
+  font-family: zee;
+  src: url(gambar/KeramiqueScript_PERSONAL_USE_ONLY.otf);
+} 
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  color: #b85b0af5; /* Warna logo awal */
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Zee';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: color 1s ease; /* Animasi perubahan warna */
+}
+
+.navbar-brand.scrolled-logo {
+  color: white;
+}
+
+#main-navbar.scrolled .nav-link {
+  color: #fff;
+}
+
+.nav-link {
+  color: aliceblue; 
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d97f25; 
+}
+
+.navbar {
+  transition: background-color 0.7s ease, box-shadow 0.5s ease;
+  background-color: transparent;
+}
+
+.banner {
+  min-height: calc(100vh - 56px); 
+  background-image: url('image/bgtest.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+
+.text{
+    color: azure;
+}
+      
+      /* Banner */
+      .banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('gambar/bgtest.jpeg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+      }
