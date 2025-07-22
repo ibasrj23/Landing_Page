@@ -1,11 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontak NoveLbrary</title>
 </head>
 <body>
-    <h1>contact</h1>
+    <nav id="main-navbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><strong>NoveLbrary</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <div class="container min-vh-100 d-flex align-items-center">
+            <div class="row justify-content-center w-100">
+                <div class="col-lg-8">
+                    <div class="text bg-white p-4 rounded shadow" style="opacity: 0.9;">
+                        <h1 class="fw-bold text-dark mb-4">Kontak Kami</h1>
+
+                        <form id="contactForm" class="form">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Nama" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Alamat Email" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Pesan Kamu" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-warning btn-lg w-100" disabled>
+                                <span>Kirim Pesan</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center mt-5 py-4 bg-light">
+        <div class="container">
+            <p>&copy; 2023 NoveLbrary. All rights reserved.</p>
+            <p>Ikuti kami di 
+                <a href="#" class="text-decoration-none">Facebook</a>, 
+                <a href="#" class="text-decoration-none">Twitter</a>, 
+                <a href="#" class="text-decoration-none">Instagram</a>
+            </p>
+        </div>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+             <script src="contact.js"></script>
 </body>
 </html>
