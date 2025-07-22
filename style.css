@@ -1,6 +1,6 @@
 @font-face {
   font-family: zee;
-  src: url(gambar/KeramiqueScript_PERSONAL_USE_ONLY.otf);
+  src: url(image/KeramiqueScript_PERSONAL_USE_ONLY.otf);
 } 
 
 body {
@@ -62,7 +62,7 @@ body {
 
 .banner {
   min-height: calc(100vh - 56px); 
-  background-image: url('gambar/bgtest.jpeg');
+  background-image: url('image/bgtest.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
