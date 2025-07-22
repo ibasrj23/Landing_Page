@@ -62,7 +62,7 @@ body {
 
 .banner {
   min-height: calc(100vh - 56px); 
-  background-image: url(image/bgtest.jpeg);
+  background-image: url('image/bgtest.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@ body {
 }
 
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('gambar/bgtest.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('image/bgtest.jpeg');
   background-size: cover;
   background-position: center;
   color: white;
